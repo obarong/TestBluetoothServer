@@ -10,6 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.eagleview.ljr.testbluetoothserver.BluetoothStart">
 
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_above="@+id/button1" />
+
     <Button
         android:text="Connect"
         android:layout_width="wrap_content"
